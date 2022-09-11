@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jiahang Zhang</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Jiahang Zhang" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Jiahang Zhang</h1>
+
+          <p class="title">Junior USC CS Student</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:jiahang@usc.edu" class="contact-link">jiahang@usc.edu</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12138800364" class="contact-link">+1 (213) 880-0364</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">July 25, 2002</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="school-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">School</p>
+
+              <time datetime="1982-06-23">University of Southern California</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Los Angeles, California, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Project</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            With strong logical thinking, I have won the second prize of China Mathematics League at provincial level and the top 1% of AMC mathematics Competition in the United States. 
+          </p>
+
+          <p>
+            Love programming, familiar with C/C++, familiar with Java, Python, have some project experience and familiar with basic data structure and algorithm;
+            Strong interest in web development and software development, familiar with MySQL relational database, familiar with basic Html, Javascript, CSS and other front-end basics, learned and used jQuery, capable of back-end development through PHP and Java; 
+          </p>
+
+          <p>
+            Love learning new knowledge, and I am learning MVC(Laravel), ORM architecture, MongoDB and other back-end knowledge.
+          </p>
+
+          <p>
+            I hope to become an excellent full-stack development engineer after graduation.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing / learning</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-computer.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Computer Science</h4>
+
+                <p class="service-item-text">
+                  I'm a Junior Computer Science major student in USC Viterbi. Now trying to get 2023 Summer intern.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Course Producer</h4>
+
+                <p class="service-item-text">
+                  The course producer of CSCI 201 (Software Development Principle). Held OHs and labs weekly.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  Pursing Web Development minor. Made multiple full-stack web app based on several frameworks.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Very interested in mobile applications. Currently took courses on iOS and Android development.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Comments or Evaluation</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Joseph Schryver" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Joseph Schryver</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Jiahang is highly adept at understanding and adapting to new technologies and completing tasks in new areas;
+                    he has excellent problem solving ability that results in thought out work completed quickly;
+                    and he is willing to ask for help when needed to move through barriers.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Mark Barkell" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mark Barkell</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Comments on Jiahang:
+                  </p>
+                  <ul>
+                    <li>
+                      <p>Dedication to getting the problem solved without errors even when errors have been detected. </p>
+                    </li>
+                    <li>
+                      <p>Ability to listen to the desired changes for a Pull Request. </p>
+                    </li>
+                    <li>
+                      <p>Generally friendly. (By the way -- this is a very important trait.)</p>
+                    </li>
+                  </ul>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Joseph Schryver" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Joseph Schryver</h4>
+
+              <time datetime="2022-07-30">30 July, 2022</time>
+
+              <div data-modal-text>
+                <p>
+                  Jiahang is highly adept at understanding and adapting to new technologies and completing tasks in new areas;
+                  he has excellent problem solving ability that results in thought out work completed quickly;
+                  and he is willing to ask for help when needed to move through barriers.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University of Southern California</h4>
+
+              <span>Jan 2021 — Dec 2023</span>
+
+              <p class="timeline-text">
+                <b>GPA:</b> 3.84/4 <br> 
+                <b>Major:</b> Computer Science (BSc) & Applied and Computational Mathematics (BSc) <br> 
+                <b>Minor:</b> Web Technologies and Applications <br>
+                <b>Honor:</b> 2021 Spring Dean's List / 2021 Fall Dean's List / 2022 Spring Dean's List / 2022 Spring NRA Scholarship - URAP Stipend
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Chongqing BI Academy</h4>
+
+              <span>Sep 2017 — June 2020</span>
+
+              <p class="timeline-text" >
+                <b>GPA:</b> Weighted: 4.343 / Unweighted: 4.146 <br>
+                <b>AP: </b> AP Statistics / AP Physics C: Electricity and Magnetism / AP Calculus BC / AP Macroeconomics / AP Computer Science A / AP Physics C: Mechanics / AP Microeconomics.<br>
+                <b>Honor: </b> <br>
+                <div style="margin-left: 40px" class="timeline-text">
+                ● American Regions Mathematics League - April 2019 / April 2018 <br>
+                (GOLDEN Award Team (national 5th), international 22nd team & First place of the individual and the top group of the southwest China) <br>
+                ● Distinction (top 1%) in AMC - Feb 2019 <br>
+                ● Top 50 Group in HMMT - Dec 2018 <br>
+                </div>
+              </p>
+
+            </li>
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">TeleTracking Technologies Inc - Logistic Software Engineering Intern</h4>
+
+              <span>May 2022 — Aug 2022</span>
+
+              <p class="timeline-text">
+                ● Improved the local Kubernetes environment to achieve environment setup automation and integration test optimization, largely increasing the local development and testing efficiency by eliminating weekly tens of hours of dependencies installation. <br>
+                ● Optimized the Command Read Store data structure and data storage for multiple microservices by automatically clearing expired data based on the mongoDB TTL index, which saved up to $1000 maintenance cost per month. <br>
+                ● Upgraded 8 Orchestrator microservices by updating Spring Boot version, amending deprecated related issues, and adding Unit Tests to archive over 90% test coverage.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">USC ICAROS lab - Research Assistant</h4>
+
+              <span>Nov 2021 — June 2022</span>
+
+              <p class="timeline-text">
+                ● Conducted human detection and analysis using C++ and Python in the WeCook Human-Robot Interaction Project. <br>
+                ● Captured and published the experimental action data through Kinect and modules including NiTE, OpenCV, ROS, and rviz. <br>
+                ● Developed a data-processing program to integrate spatial position data from three separate coordinate systems.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Spirit Technology Development Chongqing Co., Ltd - Java Intern Developer</h4>
+
+              <span>June 2021 — Aug 2021</span>
+
+              <p class="timeline-text">
+                ● Analyzed product requirements documents and designed business logic models, database schemas, and RESTful API interfaces for internal message system and human resources management system in Tianjin Binlv resource payment system. <br>
+                ● Implemented the prototype of the HR Management System using Spring Boot and Spring MVC framework. <br>
+                ● Created database ER diagram and corresponding interface document for designed features of employee center, message center, and order center, and built a MySQL Database on Tencent Cloud.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Projects</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="https://secondhand-trading.herokuapp.com/" target="_blank">Second-hand market web application</a></h4>
+
+              <span>May 2022 — Aug 2022</span>
+
+              <p class="timeline-text">
+                ● Led an eight-person Spring Boot based second-hand products information web project and directed back-end development. <br>
+                ● Oriented the APP Flow design and Features design of the product. Designed the database architecture and REST API interface. <br>
+                ● Constructed all unit tests using JUnit5 and achieved over 80% test coverage. <br>
+                ● Configured Cloud Database, deployed projects to Heroku, and monitored and improved code quality through SonarCloud. <br>
+                ● Automated project deployment process (CD) and code quality gate checking (CI) via GitHub workflows.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="https://staybooking.herokuapp.com/" target="_blank">Online House Booking Platform Based on Spring Boot</a></h4>
+
+              <span>June 2022 — July 2022</span>
+
+              <p class="timeline-text">
+                ● Designed and built a web application using AntD library and React to support online house booking. <br>
+                ● Built front-end pages and back-end REST APIs to support house listing and reservation features. <br>
+                ● Implemented token-based user registration and login and created a geo index by Elasticsearch to support geo-based search.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="https://twitchapp-project.herokuapp.com/" target="_blank">Twitch Streaming Platform with Personalized Recommendation System</a></h4>
+
+              <span>May 2022 — June 2022</span>
+
+              <p class="timeline-text">
+                ● Designed and built a full stack web application on AWS EC2 to search and recommend Twitch resources.<br>
+                ● Integrated Twitch API to retrieve Twitch resources and built a MySQL database through Hibernate.<br>
+                ● Built all RESTful services using Java Servlet and implemented a content-based algorithm to get recommendations.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title"><a href="http://trojanbay.herokuapp.com/" target="_blank">Laravel Based Simple Online Shopping Platform</a></h4>
+
+              <span>Oct 2021 — Dec 2021</span>
+
+              <p class="timeline-text">
+                ● Developed a full stack simple online shopping web application base on Laravel framework and deployed on Heroku. <br>
+                ● Designed and built front-end using html, CSS, JS, and Bootstrap framework. <br>
+                ● Created back-end functions to support products system, session-based user registration and login, order management system, and user favorite system with Laravel MVC framework. <br>
+                ● Built a PostgreSQL database and used Laravel ORM to operate data. Improved request efficiency by using Redis for caching. <br>
+                ● Structured role authorization with Laravel Gates and Policies.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages:</h5>
+              </div>
+
+              <div class="title-wrapper">
+                <p class="skill-text" style="margin-left: 40px"> C/C++, Java, Python, JavaScript, CSS, Html, PHP</p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Framework and Platforms: </h5>
+              </div>
+
+              <div class="title-wrapper">
+                <p class="skill-text" style="margin-left: 40px"> Laravel, Spring, Hibernate, Docker, Bootstrap, EC2, GCE, GCS, Tencent Cloud, Kubernetes</p>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Databases and Tools: </h5>
+              </div>
+
+              <div class="title-wrapper">
+                <p class="skill-text" style="margin-left: 40px"> MySQL, PostgreSQL, MongoDB, Elasticsearch, Apache Tomcat, Git, JUnit5, CI/CD, MATLAB</p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PROJECT
+      -->
+
+      <article class="project" data-page="project">
+
+        <header>
+          <h2 class="h2 article-title">Project</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Single-Page Web</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Single-Page Web</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="http://trojanbay.herokuapp.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="Trojanbay" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Trojanbay</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://secondhand-trading.herokuapp.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="second-hand" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Second Hand Info Market</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="single-page web">
+              <a href="https://staybooking.herokuapp.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="Staybooking" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Staybooking</h3>
+
+                <p class="project-category">Single-Page Web</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="BySharing" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BySharing (still in progress)</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://twitchapp-project.herokuapp.com/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="twitch" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Twitch Recommendation App</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJES4OLPbHwoARBJY6Q-FErRw&key=AIzaSyCKUYb_43nlv_oVuHWYcCWCKSWfhHap0EU"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="https://postmail.invotes.com/send" method="post" id="email_form" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="subject" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="reply_to" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="text" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <input type="hidden" name="access_token" value="vseyve43xs4gypd8e62g9uki" />
+            <input type="hidden" name="success_url" value=".?err=0" />
+            <input type="hidden" name="error_url" value=".?err=1" />
+
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script src="./assets/js/firebase.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.9.4/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDbINX2_SrQeBQWXJkuhMjlgAV7UYK4_w0",
+      authDomain: "zhangjiahang-1512.firebaseapp.com",
+      projectId: "zhangjiahang-1512",
+      storageBucket: "zhangjiahang-1512.appspot.com",
+      messagingSenderId: "227060423480",
+      appId: "1:227060423480:web:6bef6a0b58d41e0a20bfcd",
+      measurementId: "G-5KYDDQRCJ0"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+
+  <script>
+    let urlString = window.location.href;
+    let paramString = urlString.split('?')[1];
+    let queryString = new URLSearchParams(paramString);
+    for (let pair of queryString.entries()) {
+      console.log("Key is: " + pair[0]);
+      console.log("Value is: " + pair[1]);
+      if(pair[0] === "err") {
+        if(pair[1] === "0") {
+          console.log("success");
+          alert("Sending email successfully!");
+          window.location.replace("https://www.zhangjiahang.com");
+        } 
+        else {
+          alert("Sorr, there's something wrong happened.");
+          alert("Maybe it was caused the limitation of emails can be sent per day.");
+          alert("Please try again later.");
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>
